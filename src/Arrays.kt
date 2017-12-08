@@ -35,5 +35,22 @@ fun main(args : Array<String>){
     println("The final array looks like this: " )
      for (item in arrStr){
         print("$item ")}
+
+
+    println("\n-----------------More examples------------")
+    var ar1 = arrayOf(1,2,0,3,2)
+    println(ar1[3])
+    var ar2 = listOf<String>("Jose", "Luis","0")
+    for (item in ar2){
+        println(item)
+    }
+
+    println("\n-----------------Mutable List ----------------")
+    var list = mutableListOf<Int>(1,2,3,4,5)
+    list[0]=33
+
+    for (item in list){
+        println(item)
+    }
 }
 
