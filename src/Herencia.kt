@@ -47,7 +47,10 @@ fun main (args : Array<String>){
     var mul = op.mul(4,5)
     println("Multiplication: $mul")
 
+    //Casting
 
-
+    // while casting we replace it and the ovverrinding stays in the second class
+    var operationsCast = MultipleOperations() as Operations
+    displayResult(operationsCast.sum2(3,4).toString())
 
 }
